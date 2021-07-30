@@ -29,7 +29,7 @@ public class BuySellStocks5 {
 
         // from left to right
         int mpist = 0;
-        int lsf = prices[0];
+        int lsf = prices[0]; // least so far
         int[] dpl = new int[prices.length]; // dp max profit if sold upto today
         // dp will store the max profit to the ith day
         for (int i = 1; i < prices.length; i++) {
